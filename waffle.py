@@ -29,6 +29,8 @@ async def main():
                 print("Waffles are done")
                 found = True
 
+    # TODO: Add in texting code once camera bug is fixed whiterabbit.obj
+
     await asyncio.sleep(5)
     await machine.close()
 
